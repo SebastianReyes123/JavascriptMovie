@@ -4,7 +4,7 @@
     flex-direction: row;
     width: 700px;
     padding: 10px;
-    background-color: burlywood;
+    background-color: #15e2d1;
 }
 
 #image{
@@ -17,4 +17,15 @@
     flex-direction: column; 
     flex-grow: 1;
     justify-content: center;
+}
+#stars{
+    display: flex;
+    flex-direction: row; 
+    color: rgb(180, 180, 180);    
+    cursor: pointer;
+    font-size: 150%;    
+}
+#stars .filled{
+    color: rgb(247, 191, 8);
+    font-size: 170%;
 }
