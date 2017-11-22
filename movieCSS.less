@@ -1,0 +1,38 @@
+@bgcolor: #15e2d1;
+.content{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    padding: 10px;
+    background-color: @bgcolor;
+}
+
+#image{
+    max-height: 400px;
+    max-width: 300px;
+    padding: 20px;    
+}
+.infosection{
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1;
+    justify-content: center;
+}
+#stars{
+    color: rgb(180, 180, 180);    
+    cursor: pointer;
+    font-size: 42px;    
+    height: 40px;
+}
+#stars .filled{
+    color: rgb(247, 191, 8);
+    font-size: 42px;
+}
+#stars .unfilled{
+    font-size: 35px;
+}
+#stars .hover{
+    color: rgb(247, 191, 8);
+    font-size: 45px;
+}

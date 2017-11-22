@@ -1,0 +1,30 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "Movie review",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "lessc movieCSS.less distribution/movieCSS.css",
+    "bundle": "webpack",
+    "copyindex": "cp index.html distribution/index.html",
+    "build": "npm run bundle && npm run styles && npm run copyindex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianReyes123/JavascriptMovie.git"
+  },
+  "author": "Knugen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianReyes123/JavascriptMovie/issues"
+  },
+  "homepage": "https://github.com/SebastianReyes123/JavascriptMovie#readme",
+  "devDependencies": {
+    "less": "^2.7.3",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
